@@ -9,7 +9,7 @@ int main()
     vector<string> strs = {"flower", "flow", "flight"};
     int n = strs.size();
     if (n == 0)
-        return "";
+        return -1;
     sort(begin(strs), end(strs));
     string a = strs[0];
     string b = strs[n - 1];
